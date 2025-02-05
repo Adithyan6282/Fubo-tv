@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header{
+width: 100%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding-bottom: 6px;
+
+}
+.left-heading{
+  margin-top: 20px;
+  padding-left: 365px;
+}
+
+nav .left-heading img{
+ height: 70px; 
+}
+.right-heading{
+  margin-right: 5px;
+  padding-right: 304px; 
+}
+nav .right-heading a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+}
+.right-heading ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 5px;
+  gap: 70px;
+  font-size: 20px;
+}
+.right-heading ul li {
+  margin-left: 5px;
+}
+
+
+
+/*****************************************CONTENT-ABOUT US CSS*************************************************************/
+
+
+.content{ 
+  background: url(./images/realback.PNG);                                                                   
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+p{
+  color: white;
+}
+
+ .content h1{
+  color: white;
+  font-size: 2.6rem; 
+ }
+.back-pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.backgro{
+  padding: 28px 0; 
+}
+.backgro img{
+  height: 330px;
+}
+
+.content p{
+  font-size: 1.2rem;
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+/*********************************MIDDLE-SECTION MISSION CSS*******************************************************/
+
+.middle-section{
+  background: linear-gradient(174deg, rgb(250, 70, 22) 0%, rgb(114, 30, 78) 100%);
+  width: 100%;
+
+}
+.mission{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+.mission h1{
+  color: white;
+  font-size: 50px;
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+.mission video{
+  padding: 25px 0;
+  width: 800px;
+}
+.mission p{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin: 15px 0;
+  text-align: center; 
+}
+
+
+/**********************************************SECONDMIDDLE-SECTION CSS************************************************/
+
+.secondmiddle-section{
+  width: 100%;
+}
+
+.round-image img{
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;  
+}
+
+.culture h2{
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin: 0 0 15px;
+  }
+
+.image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 60px 0;
+  gap: 45px;
+}
+
+.culture{
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 0;
+
+}
+
+.culture p{
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+/********************************FOOTER-CONTAINER CSS****************************************************************/
+
+.footer-container{
+  width: 100%;
+  background:black;
+  padding-bottom: 30px;
+}
+
+.heading-footer h2{
+ color: white;
+ font-size: 2.6rem;
+ font-weight: 800;
+}
+
+.first-one h4{
+  color: white;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+
+}
+.second-one h4{
+  color: white;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.first-one a{
+  font-size: 1.2rem;
+  color: rgb(137,137,137);
+}
+.second-one a{
+  font-size: 1.2rem;
+  color: rgb(137, 137, 137);
+}
+
+.body-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+  padding-bottom: 30px;
+}
+
+.first-one{
+  margin-bottom: 60px;
+}
+
+.heading-footer{
+  color: rgb(225, 225, 225);
+  text-align: center;
+  padding: 80px 0;
+}
+
+.heading-footer h2{
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+.body-footer{
+  line-height: 50px;
+}
+
+/*********************************************FINAL-FOOTER*****************************************************************/
+
+.final-footer{
+  width: 100%;
+  background: rgb(46, 45, 45);
+}
+.final-elements{
+  padding-top: 30px;
+  gap: 950px;
+
+}
+.leftside p{
+  color: rgb(184, 184, 184);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rightside li a {
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rightside ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+.final-elements{
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+ padding-bottom: 20px; 
+}
